@@ -1,0 +1,9 @@
+.idea/
+.ipynb_checkpoints/
+catboost_info/
+data/processed_data/
+data/processed_data_small/
+data/train_data/
+data/train_target/
+data/.ipynb_checkpoints/
+scripts/__pycache__/
