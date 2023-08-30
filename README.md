@@ -6,8 +6,6 @@ This is a classification problem for bank's clients. There're twelve parquet fil
 ## Files structure
 
 
-/
-
 * Preprocessing.ipynb - data preparation
 * *_model.ipynb - test models
 * Results.ipynb - compare different models
@@ -44,5 +42,3 @@ The dataset was encoded part by part by OneHotEncoder from sklearn libraly and a
 
 
 In this project 6 machine learning models were tested: Logistic regression, Random forest, Single MLP pytorch, Ensemble MLP pytorch, Catboost, LightGBM. Tests have shown that the best result is shown by the LightGBM model. It shows a good result of the AUC metric on the test set and takes minimal time.
-
-
